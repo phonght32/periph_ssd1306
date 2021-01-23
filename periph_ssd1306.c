@@ -8,7 +8,7 @@
 
 #define TIMEOUT_MS 							100
 
-#define SSD1306_ADDR						(0x3C<<1)
+#define SSD1306_ADDR						(0x3C)
 #define SSD1306_REG_DATA_ADDR				0x40
 #define SSD1306_REG_CMD_ADDR				0x00
 /*!<  */
