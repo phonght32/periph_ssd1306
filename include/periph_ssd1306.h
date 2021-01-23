@@ -8,7 +8,6 @@ extern "C" {
 #include "esp_err.h"
 #include "esp_peripherals.h"
 
-#include "spidev.h"
 #include "i2cdev.h"
 #include "driver/gpio.h"
 #include "fonts.h"
@@ -33,7 +32,6 @@ typedef enum {
 
 typedef struct {
 	i2cdev_handle_t 	i2cdev;
-	spidev_handle_t 	spidev;
 	int 				dc;
 	int 				rst;
 	int 				cs;
